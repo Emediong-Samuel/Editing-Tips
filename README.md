@@ -25,7 +25,7 @@ Configure and start your local web server. You can also use tools like **XAMPP**
 ```
 http://localhost/your-web-app-folder/your-page-name.php
 ```
-(You can use "localhost" or replace it with your server's IP address alongside the correct path to your target PHP file)
+(You can use `localhost` or replace it with your server's `IP address` alongside the correct path to your target PHP file)
 
 ## Using XAMPP?
 To use XAMPP, follow the directives below.
@@ -54,7 +54,7 @@ sudo /opt/lampp/lampp start
 ```
 sudo mv index.php /opt/lampp/htdocs/
 ```
-**Change to the XAMPP directory and restart Apache:**
+**Switch to the XAMPP directory and restart Apache:**
 ```
 cd /opt/lampp/
 sudo ./xampp reloadapache
@@ -63,7 +63,8 @@ sudo ./xampp reloadapache
 ```
 http://localhost/index.php
 ```
-#Replace **"localhost"** with your server IP if you're using a remote server.
+#Replace `localhost` with your server IP if you're using a remote server.
+
 **NOTE**: If your PHP file is located in a different path or directory, update the URL accordingly to reflect the correct file location.
 
 ## How to Use
