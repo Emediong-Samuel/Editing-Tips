@@ -61,7 +61,7 @@ sudo ./xampp reloadapache
 ```
 **The web application can now be accessed using the following URL**:
 ```
-http://localhost/myphpapp/index.php
+http://localhost/index.php
 ```
 #Replace **"localhost"** with your server IP if you're using a remote server.
 
