@@ -25,7 +25,7 @@ Configure and start your local web server. You can also use tools like **XAMPP**
 ```
 http://localhost/your-web-app-folder/your-page-name.php
 ```
-(You can use `localhost` or replace it with your server's `IP address` alongside the correct path to your target PHP file)
+You can use `localhost` or replace it with your server's `IP address`. Also, replace the URL path with the correct path to your target .`php` file
 
 ## Using XAMPP?
 To use XAMPP, follow the directives below.
