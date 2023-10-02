@@ -1,4 +1,4 @@
-# A Technical Writing ediitng Checklist
+# A Technical Writing editing Checklist
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -21,29 +21,40 @@ To run this PHP web application locally, follow these steps:
    cd myphpapp
    
 3. Start a local web server. You can use tools like XAMPP, WAMP, or PHP's built-in server.
-4. Access the application in your web browser at http://localhost/myphpapp/index.php. (replcae "localhost" with your server's Ip address if you're using a remote server)
+4. Access the application in your web browser at http://localhost/myphpapp/index.php. (replace "localhost" with your server's IP address if you're using a remote server)
 
+## Using XAMPP? (Do the following)
 wget "https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run"
+
 **Make the Installer Executable** (if needed):
+```
 chmod +x xampp-linux-x64-8.2.4-0-installer.run
 Replace the filename with the actual name of the downloaded installer.
+
 **Run the Installer:**
+```
 sudo ./xampp-linux-x64-8.2.4-0-installer.run
+
 **Follow the on-screen instructions to complete the installation**. 
 You can typically choose the default settings unless you have specific requirements.
+
 **Start XAMPP:**
 ```bash
 sudo /opt/lampp/lampp start
-This command will start the XAMPP services, including Apache (web server) and MySQL (database server).
+
+This command will start the XAMPP services, including Apache (webserver) and MySQL (database server).
 
 **Move the "myphpapp" directory to the correct location within /opt/lampp/htdocs/:**
+```
 sudo mv myphpapp /opt/lampp/htdocs/
 cd /opt/lampp/
 
 **restart Apache**
+```
 sudo ./xampp reloadapache
 
 The web application can now be accessible using the following URL:
+```
 http://localhost or IP address/myphpapp/index.php
 
 
@@ -58,7 +69,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
 Fork the repository.
+
 Create a new branch for your feature or bug fix.
+
 Make your changes and commit them with descriptive messages.
+
 Push your branch to your fork.
+
 Submit a pull request to the main repository.
