@@ -64,6 +64,7 @@ sudo ./xampp reloadapache
 http://localhost/index.php
 ```
 #Replace **"localhost"** with your server IP if you're using a remote server.
+**NOTE**: If your PHP file is located in a different path or directory, update the URL accordingly to reflect the correct file location.
 
 ## How to Use
 Navigate through the checklist by clicking the **"Next Tip"** button to reveal the associated editing tips and explanations. Explore the valuable technical writing guidelines to improve your writing skills.
