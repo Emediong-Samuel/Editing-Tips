@@ -30,10 +30,11 @@ wget "https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-lin
 ## Make the Installer Executable (if needed):
 ```
 chmod +x xampp-linux-x64-8.2.4-0-installer.run
-
+```
 Run the Installer:
 ```
 sudo ./xampp-linux-x64-8.2.4-0-installer.run
+```
 
 Follow the on-screen instructions to complete the installation. You can typically choose the default settings unless you have specific requirements.
 
