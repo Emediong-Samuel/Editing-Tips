@@ -13,4 +13,7 @@ To run this PHP web application locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/myphpapp.git
+   git clone https://github.com/Emediong-Samuel/Editing-tips
+
+2. Navigate to the project directory:
+   cd myphpapp
