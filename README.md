@@ -28,7 +28,7 @@ http://localhost/your-web-app-folder/your-page-name.php
 (You can use "localhost" or replace it with your server's IP address alongside the correct path to your target PHP file)
 
 ## Using XAMPP?
-If you are using XAMPP, follow the directives below.
+To use XAMPP, follow the directives below.
 
 **Download the XAMPP installer**:
 ```
