@@ -50,7 +50,7 @@ sudo /opt/lampp/lampp start
 ```
 #This command will start the XAMPP services, including Apache (webserver) and MySQL (database server).
 
-**From the "myphpapp" directory, Move the "index.php" file to the correct location within /opt/lampp/htdocs/ :**
+From the `myphpapp` directory, Move the `index.php` file to the correct location within `/opt/lampp/htdocs/` :
 ```
 sudo mv index.php /opt/lampp/htdocs/
 ```
