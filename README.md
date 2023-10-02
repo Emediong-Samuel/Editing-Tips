@@ -19,11 +19,11 @@ To run this PHP web application locally, follow these steps:
 ```
 cd Editing-tips/myphpapp
 ```
-Start a local web server. You can use tools like XAMPP, WAMP, or PHP's built-in server.
+Start your local web server. You can use tools like XAMPP, WAMP, or PHP's built-in server.
 
 **Access the application in your web browser at**:
 ```
-http://localhost/myphpapp/index.php
+http://localhost/your-web-app-folder/your-page-name.php
 ```
 (You can use "localhost" or replace it with your server's IP address)
 
