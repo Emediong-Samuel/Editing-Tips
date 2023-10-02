@@ -59,10 +59,12 @@ sudo ./xampp reloadapache
 ```
 **The web application can now be accessed using the following URL**:
 ```
-http://localhost or server IP/myphpapp/index.php
+http://localhost/myphpapp/index.php
 ```
-## Usage
-Navigate through the checklist by clicking the "Next Tip" button to reveal the associated editing tips and explanations. Explore the valuable technical writing guidelines to improve your writing skills.
+#Replace **"localhost"** with your server IP if you're using a remote server.
+
+## How to Use
+Navigate through the checklist by clicking the **"Next Tip"** button to reveal the associated editing tips and explanations. Explore the valuable technical writing guidelines to improve your writing skills.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -70,7 +72,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-## Fork the repository.
+Fork the repository.
 Create a new branch for your feature or bug fix.
 Make your changes and commit them with descriptive messages.
 Push your branch to your fork.
