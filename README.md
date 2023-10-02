@@ -15,44 +15,49 @@ To run this PHP web application locally, follow these steps:
    ```bash
    git clone https://github.com/Emediong-Samuel/Editing-tips
 
-Navigate to the project directory:
+**Navigate to the project directory**:
 ```
 cd myphpapp
 ```
 Start a local web server. You can use tools like XAMPP, WAMP, or PHP's built-in server.
-Access the application in your web browser at http://localhost/myphpapp/index.php. (Replace "localhost" with your server's IP address if you're using a remote server)
+
+**Access the application in your web browser at**:
+```
+http://localhost/myphpapp/index.php
+```
+(Replace "localhost" with your server's IP address if you're using a remote server)
 
 ## Using XAMPP?
 Run the following command to download the XAMPP installer:
 ```
 wget "https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run"
 ```
-## Make the Installer Executable (if needed):
+**Make the Installer Executable** (if needed):
 ```
 chmod +x xampp-linux-x64-8.2.4-0-installer.run
 ```
-Run the Installer:
+**Run the Installer**:
 ```
 sudo ./xampp-linux-x64-8.2.4-0-installer.run
 ```
 Follow the on-screen instructions to complete the installation. You can typically choose the default settings unless you have specific requirements.
 
-## Start XAMPP:
+**Start XAMPP**:
 ```
 sudo /opt/lampp/lampp start
 ```
 #This command will start the XAMPP services, including Apache (webserver) and MySQL (database server).
 
-Move the "myphpapp" directory to the correct location within /opt/lampp/htdocs/:
+**Move the "myphpapp" directory to the correct location within /opt/lampp/htdocs/ :**
 ```
 sudo mv myphpapp /opt/lampp/htdocs/
 ```
-Change to the XAMPP directory and restart Apache:
+**Change to the XAMPP directory and restart Apache:**
 ```
 cd /opt/lampp/
 sudo ./xampp reloadapache
 ```
-The web application can now be accessed using the following URL:
+**The web application can now be accessed using the following URL**:
 ```
 http://localhost or server IP/myphpapp/index.php
 ```
