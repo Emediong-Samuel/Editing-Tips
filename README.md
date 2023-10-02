@@ -17,7 +17,7 @@ To run this PHP web application locally, follow these steps:
 
 **Navigate to the project directory**:
 ```
-cd myphpapp
+cd Editing-tips/myphpapp
 ```
 Start a local web server. You can use tools like XAMPP, WAMP, or PHP's built-in server.
 
@@ -25,7 +25,7 @@ Start a local web server. You can use tools like XAMPP, WAMP, or PHP's built-in 
 ```
 http://localhost/myphpapp/index.php
 ```
-(Replace "localhost" with your server's IP address if you're using a remote server)
+(You can use "localhost" or replace it with your server's IP address)
 
 ## Using XAMPP?
 If you are using XAMPP, follow the directives below.
