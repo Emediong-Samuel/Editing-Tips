@@ -28,7 +28,9 @@ http://localhost/myphpapp/index.php
 (Replace "localhost" with your server's IP address if you're using a remote server)
 
 ## Using XAMPP?
-Run the following command to download the XAMPP installer:
+If you are using XAMPP, follow the directives below.
+
+**Download the XAMPP installer**:
 ```
 wget "https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run"
 ```
@@ -48,7 +50,7 @@ sudo /opt/lampp/lampp start
 ```
 #This command will start the XAMPP services, including Apache (webserver) and MySQL (database server).
 
-**Move the "myphpapp" directory to the correct location within /opt/lampp/htdocs/ :**
+**From the "myphpapp" directory, Move "myphpapp" to the correct location within /opt/lampp/htdocs/ :**
 ```
 sudo mv myphpapp /opt/lampp/htdocs/
 ```
